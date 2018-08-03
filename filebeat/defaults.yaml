@@ -4,3 +4,4 @@
 filebeat:
   enabled: false
   pkg: 'filebeat'
+  major_version: 5
