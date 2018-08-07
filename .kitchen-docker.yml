@@ -2,7 +2,7 @@
 # vim: ft=yaml
 ---
 driver:
-  name: vagrant
+  name: docker
 
 provisioner:
   name: salt_solo
@@ -22,7 +22,7 @@ provisioner:
           - filebeat
 
 platforms:
-  - name: bento/debian-9
+  - name: debian-9
 
 suites:
   - name: default

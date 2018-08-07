@@ -1,5 +1,6 @@
-
+.bundle
 .kitchen
 .kitchen.local.yml
 .vagrant
 .DS_store
+Gemfile.lock
