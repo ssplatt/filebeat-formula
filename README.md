@@ -1,4 +1,5 @@
 # filebeat-formula
+[![Build Status](https://travis-ci.org/ssplatt/filebeat-formula.svg?branch=master)](https://travis-ci.org/ssplatt/filebeat-formula)
 
 Install and configure filebeat
 
