@@ -3,6 +3,7 @@
 
 filebeat:
   enabled: true
+  repo_managed: true
   config:
     filebeat:
       prospectors:
