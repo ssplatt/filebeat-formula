@@ -9,10 +9,6 @@ group :vagrant do
   gem 'kitchen-vagrant'
 end
 
-group :linode do
-  gem 'kitchen-linode'
-end
-
 group :docker do
   gem 'kitchen-docker'
 end
