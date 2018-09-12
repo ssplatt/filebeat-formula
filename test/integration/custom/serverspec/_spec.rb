@@ -8,8 +8,8 @@ describe file('/etc/filebeat/filebeat.yml') do
   it { should be_mode 640 }
   its(:content) { should match /^filebeat:/ }
   its(:content) { should match /^  prospectors:/ }
-  its(:content) { should match /^  - input_type: log/ }
-  its(:content) { should match /^    paths:/ }
+  its(:content) { should match /input_type: log$/ }
+  its(:content) { should match /paths:$/ }
   its(:content) { should match /^    - \/var\/log\/\*\.log/ }
   its(:content) { should match /^  registry_file: \/var\/lib\/filebeat\/registry/ }
   its(:content) { should match /^logging:/ }

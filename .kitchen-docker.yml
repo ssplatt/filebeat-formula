@@ -2,7 +2,7 @@
 # vim: ft=yaml
 ---
 driver:
-  name: linode
+  name: docker
 
 provisioner:
   name: salt_solo
@@ -22,7 +22,7 @@ provisioner:
           - filebeat
 
 platforms:
-  - name: debian_jessie
+  - name: debian-9
 
 suites:
   - name: default
