@@ -31,6 +31,7 @@ suites:
         filebeat.sls:
           filebeat:
             enabled: true
+            repo_managed: true
 
   - name: custom
     provisioner:

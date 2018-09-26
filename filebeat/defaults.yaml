@@ -3,4 +3,6 @@
 
 filebeat:
   enabled: false
+  repo_managed: false
   pkg: 'filebeat'
+  major_version: 5
